@@ -1,0 +1,1 @@
+vertical(line(point(X,Y),point(X,Z))).

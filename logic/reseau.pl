@@ -1,0 +1,10 @@
+trainDirect(paris,nancy).
+trainDirect(nancy,metz).
+trainDirect(metz,strasbourg).
+trainDirect(paris,lyon).
+trainDirect(lyon,marseille).
+trainDirect(marseille,nice).
+trainDirect(paris,lehavre).
+allerDe(X,Y):-trainDirect(X,Y),write('false').
+/*allerDe(X,X).*/
+allerDe(X,Y):-trainDirect(X,Z),write(X),nl,write(Z),allerDe(Z,Y).
