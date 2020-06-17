@@ -9,7 +9,7 @@ void main()
 	Array array(6);
 	Array array2(array);
 
-	Array *arr = new Array;//arr la array
+	Array *arr = new Array;//arr is array
 	delete arr;
 
 	_getch();
