@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Cookie|Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="FontAwesome/css/fontawesome.css">
+    <script defer src="FontAwesome/js/all.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row header">
+            <div class="col-lg-4">
+                <button class="toggle-btn" id="toggle-btn" >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <button class="toggle-btn" id="toggle-btn-close" >
+                        <i class="fas fa-times fa-3x"></i>
+                </button>
+            </div>
+            <div class="col-lg-4"><img class="logo" src="img/lf-logo.png"></div>
+            <div class="col-lg-4" id="Account">
+                <div class="Login">
+                    <button type="button" class="btn btn-success one button-Inscrire" 
+                    data-toggle="modal" data-target="#ModalLogin">
+                        Se Connecter
+                    </button>
+                    <div class="modal fade" id="ModalLogin" tabindex="-1">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="column" id="main">
+                                        <h1 class="text-left">S'incrire</h1><br>
+                                        <form action="">
+                                            <div class="form-group">
+                                                <label for="">Nom : </label>
+                                                <input type="name" class="form-control" placeholder="Nom">                                            
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="">Courriel : </label>
+                                                <input type="courriel" class="form-control" placeholder="Courriel">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="">Password : </label>
+                                                <input type="password" class="form-control" placeholder="password">
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">S'inscrire</button>
+                                        </form>
+                                    </div>
+                                    <div></div>
+                                    <div class="column" id="secondary">
+                                        <div class="sec-content">
+                                            <h2 class="text-uppercase">Bienvenue</h2>
+                                            <button type="button" class=" btn btn-primary">Se Connecter</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row bodys">
+            <div class="col-lg-3 left-sidebar" id="left-sidebar">
+                <ul id="menu">
+                    <li><h2>Ingrédients</h2>
+                        <ul id="sub">
+                            <li><input type="checkbox" value="Viande">  Viande</li>
+                            <li><input type="checkbox" value="Legume">  Fruit et Légume</li>
+                            <li><input type="checkbox" value="FdeMer">  Fruit de mer</li>
+                        </ul>
+                    </li>
+                    <li><h2>Carnet de voyage</h2>
+                        <ul id="sub">
+                            <li><input type="checkbox" value="eu">  Explorer L'Europe</li>
+                            <li><input type="checkbox" value="am">  Explorer Les Amériques</li>
+                            <li><input type="checkbox" value="As">  Explorer L'Asia</li>
+                        </ul>
+                    </li>
+                    <li><h2>Méthode</h2>
+                        <ul id="sub">
+                            <li><input type="checkbox" value="Frit">    Frit</li>
+                            <li><input type="checkbox" value="Bouilli">    Bouilli</li>
+                            <li><input type="checkbox" value="CuitALaVapeur">    Cuit à la vapeur</li>
+                            <li><input type="checkbox" value="Cuit">    Cuit</li>
+                        </ul>
+                    </li>
+                </ul>                                          
+            </div>
+            <div class="col-lg-12 content" id="content">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="sliderText">
+                                    <img src="img/menu/11770860-french-style-crepes-with-banana-chocolate-sauce-and-sugar-powder.jpg" alt="pate a crepes" width="400px" height="200px">
+                                </div>
+                                <div class="contenue">
+                                    <h4>La pâtes de crêpes</h4>
+                                    <p>Selon l'usage que vous en ferez, les crêpes pourront être pliées en pannequets serrés, 
+                                        roulées comme pour les ficelles picardes, en aumônières, simplement pliées en deux 
+                                        comme les fameuses crêpes soufflées ou en quatre comme les crêpes Suzette. 
+                                        Moins classique mais tout aussi sympa il y a aussi le gâteau de crêpes spécial grande tablée !</p>
+                                    <a href="#popup1" class="button">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="sliderText">
+                                    <img src="img/menu/tarte-tatin-640.jpg" alt="Tarte Tatin" width="400px" height="200px">
+                                </div>
+                                <div class="contenue">
+                                    <h3>Tarte Tatin</h3>
+                                    <p>Je vous ai déjà parlé de ces mini Tatin que j’ai confectionnées pour un café gourmand.
+                                        La préparation est simple mais demande un peu de temps mais ici aussi, il y a une phase congélation.
+                                        On peut donc les faire à l’avance et les décongeler au fur et à mesure des besoins</p>
+                                    <a href="#popup2" class="button">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="sliderText">
+                                    <img src="img/menu/Beignets_de_fleurs_de_courgette.jpg" alt="Beignets de fleurs de courgettes" width="400px" height="200px">
+                                </div>
+                                <div class="contenue">
+                                    <h3>Beignets de fleurs de courgettes</h3>
+                                    <p>Spécialité de la cuisine provençale, les beignets de fleurs de courgettes sont un vrai délice. 
+                                        Ces savoureux beignets salés se dégustent à l'apéritif, en entrée ou même en plat principal.
+                                        Découvrez, sans plus attendre, notre recette facile et rapide pour émerveiller les papilles de vos invités. 
+                                        </p>
+                                    <a href="#popup3" class="button">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="sliderText">
+                                    <img src="img/menu/ravioles-langoustine-facon-thai.png" alt="" width="400px">
+                                </div>
+                                <div class="contenue">
+                                    <h3>Une émulsion Noilly-Prat pour sublimer vos coquillages</h3>
+                                    <p>N’avez-vous jamais mangé de palourdes, coques ou encore couteaux en persillade ? 
+                                        Un plat classique et banal mais super bon n’est ce pas ? 
+                                        Donnez de la puissance et de l’originalité à votre plat avec cette émulsion au Noilly-Prat, succès assuré !</p>
+                                    <a href="#popup4" class="button">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="sliderText">
+                                    
+                                </div>
+                                <div class="contenue">
+                                    <h3>Slide Five</h3>
+                                    <p>aksjdnabsdawbdabwdqh</p>
+                                    <a href="#popup5" class="button">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="sliderText">
+                                   
+                                </div>
+                                <div class="contenue">
+                                    <h3>Fruits de mer au curry</h3>
+                                    <p>Ce soir, c'est décidé, on varie les plaisirs !
+                                        Et si vous réalisiez une recette de fruits de mer au curry ? 
+                                        Originale et gourmande, cette recette à tout pour plaire à votre palet. 
+                                        Relevée grâce au curry et à la moutarde, vos fruits de mer vous donneront de nouvelles saveurs méditerranéennes succulentes.</p>
+                                    <a href="#popup6" class="button">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="sliderText">
+                                   
+                                </div>
+                                <div class="contenue">
+                                    <h3>Slide Step</h3>
+                                    <p>aksjdnabsdawbdabwdqh</p>
+                                    <a href="#popup7" class="button">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="sliderText">
+                                    
+                                </div>
+                                <div class="contenue">
+                                    <h3>Slide One</h3>
+                                    <p>aksjdnabsdawbdabwdqh</p>
+                                    <a href="#popup8" class="button">Read More</a>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="sliderText">
+                                    <h3>Slide One</h3>
+                                </div>
+                                <div class="contenue">
+                                    <p>aksjdnabsdawbdabwdqh</p>
+                                    <a href="#popup9" class="button">Read More</a>
+                                </div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+                <div class="popup" id="popup1">
+                    <div class="popup-inner">
+                        <div class="popup-photo">
+                            <img src="img/menu/d5670311c1e558441465a39fa24212ae.jpg" alt="Crêpes">
+                        </div>
+                        <div class="popup-close">
+                            <a href="#body"><i class="fas fa-times fa-2x"></i></a>
+                        </div>
+                        <div class="popup-text">
+                            <h1>LA PÂTE À CRÊPES </h1>
+                            <h3>Ingredients:</h3>
+                            <p>
+                                <li>250 g de farine de blé T65</li> 
+                                <li>20 g de sucre (facultatif)</li>
+                                <li>1 pincée de sel</li>
+                                <li>3 gros oeufs bio</li>
+                                <li>70 cl de lait demi-écremé</li>
+                                <li>1 cuillerée à soupe d’huile neutre</li>
+                            </p>
+                            <h3>Préparation pour faire :</h3>
+                            <p>
+                                <li>Mélangez la farine, le sucre et le sel. Faites un puits au centre et cassez-y les 3 oeufs entiers.</li>
+                                <li>Incorporez peu à peu les oeufs avec un fouet. Puis ajoutez peu à peu le lait.</li>
+                                <li>Ajoutez l’huile et l’arôme de fleur d’oranger.</li>
+                                <li>Laissez reposer la pâte à crêpes 1 heure au réfrigérateur.</li>
+                                <li>Faites cuire les crêpes dans une poêle graissée et garnissez-les de confiture, sucre ou pâte à tartiner.</li>
+                            </p>
+                        </div>
+                    </div>    
+                </div>
+                <div class="popup" id="popup2">
+                    <div class="popup-inner">
+                        <div class="popup-photo">
+                            <img src="img/menu/a3d8f402e2f60df6811358a8ce453301.jpg" alt="Tart Tatin">
+                        </div>
+                        <div class="popup-close">
+                                <a href="#body"><i class="fas fa-times fa-2x"></i></a>
+                        </div>
+                        <div class="popup-text">
+                            <h1>TARTE TATIN</h1>
+                            <h3>Ingredients (pour 2):</h3>
+                            <p>
+                                <li>2.5 pommes golden bien jaunes</li> 
+                                <li>1/3 pâte feuilletée (toute prête ou faite maison)</li>
+                                <li>2/3 sachet de sucre vanillé</li>
+                                <li>Cannelle</li>
+                                <li>33.5 g de beurre</li>
+                                <li>33.5 g de sucre en poudre</li>
+                            </p>
+                            <h3>Préparation pour faire :</h3>
+                            <p>
+                                <li>Préchauffer le four à 180°C (thermostat 6).
+                                    Dans un moule à tarte rond antiadhésif, faire fondre le beurre directement sur le feu.</li>
+                                <li>Y ajouter le sucre fin</li>
+                                <li>et baisser le feu pour faire un caramel.</li>
+                                <li>Eplucher les 8 pommes golden entières. Les couper en deux et enlever le coeur sans défaire les moitiés.
+                                    Disposer les pommes reconstituées en couronne dans le plat,</li>
+                                <li>en mettre une ou deux au milieu.Aplatir avec une spatule de temps en temps, 
+                                    les pommes doivent pocher dans le caramel, qui ne doit pas devenir noir, mais tout juste doré.</li>
+                                <li>Saupoudrer les pommes de sucre vanillé et de cannelle.</li>
+                                <li>Sortir le tout du feu et recouvrir de pâte feuilletée en appuyant bien sur les bords.</li>
+                                <li>Mettre au four moyen pendant 35 à 40 minutes.</li>
+                                <li>Déguster tiède.</li>
+                            </p>
+                        </div>
+                    </div>    
+                </div>
+                <div class="popup" id="popup3">
+                    <div class="popup-inner">
+                        <div class="popup-photo">
+                            <img src="img/menu/Fleurs_courgettes_farcies_beignets.jpg" alt="">
+                        </div>
+                        <div class="popup-close">
+                            <a href="#body"><i class="fas fa-times fa-2x"></i></a>
+                        </div>
+                        <div class="popup-text">
+                            <h1>BEIGNETS DE FLEURS DE COURGETTES</h1>
+                            <h3>Ingredients:</h3>
+                            <p>
+                                <li>24 fleurs de courgettes</li> 
+                                <li>75 g de farine</li>
+                                <li>10 cl de lait</li>
+                                <li>1 oeuf</li>
+                                <li>1 c. à café d’huile d’olive</li>
+                                <li>sel, poivre</li>
+                                <li>huile de friture</li>
+                            </p>
+                            <h3>Préparation pour faire :</h3>
+                            <p>
+                                <li>Coupez les fleurs de chacune des courgettes. 
+                                    Nettoyez délicatement les fleurs et disposez-les sur du papier absorbant pour bien les sécher.</li>
+                                <li>Séparez le blanc du jaune d'œuf. 
+                                    Dans un saladier, versez la farine. 
+                                    Ajoutez le jaune d'œuf. 
+                                    Délayez progressivement avec l'huile et avec le lait. 
+                                    Fouettez énergiquement jusqu'à obtention d'une pâte homogène.</li>
+                                <li>Montez le blanc d'œuf en neige ferme avec un batteur électrique. 
+                                    Incorporez délicatement le blanc à la préparation précédente.</li>
+                                <li>Faites chauffer de l'huile dans votre friteuse ou dans une grande poêle. 
+                                    Saisissez les fleurs par la base et trempez-les délicatement dans la pâte à beignets. 
+                                    Plongez délicatement les fleurs dans l'huile chaude. 
+                                    Surveillez attentivement la cuisson car les beignets colorent très vite. 
+                                    Égouttez et déposez sur du papier absorbant. Dégustez tiède.</li>  
+                            </p>
+                        </div>
+                    </div>    
+                </div>
+                <div class="popup" id="popup4">
+                    <div class="popup-inner">
+                        <div class="popup-photo photo4">
+                            <img src="img/menu/o.jpg" alt="" width="100px" height="100px">
+                        </div>
+                        <div class="popup-close">
+                            <a href="#body"><i class="fas fa-times fa-2x"></i></a>
+                        </div>
+                        <div class="popup-text">
+                            <h1>Une émulsion Noilly-Prat pour sublimer vos coquillagesE</h1>
+                            <h3>Ingredients:</h3>
+                            <p>
+                                <li>3 échalotes</li> 
+                                <li>3 centilitres vinaigre de vin rouge</li>
+                                <li>12 centilitres Noilly-prat blanc</li>
+                                <li>9 centilitres bouillon de volaille</li>
+                                <li>12 centilitres crème liquide entière</li>
+                                <li>30 grammes beurre</li>
+                                <li>1/2 c. à café agar-agar</li>
+                                <li>un peu de sel et poivre blanc</li>
+                            </p>
+                            <h3>Préparation pour faire :</h3>
+                            <p>
+                                <li>Préparation et cuisson de la sauce :</li>
+                                <li>Ciseler vos échalotes grossièrement.</li>
+                                <li>Mettez-les dans une casserole avec le vinaigre.</li>
+                                <li>Mettez sur un feu moyen. Nous allons faire une réduction à sec. 
+                                    Il faut qu’il n’y ait plus de vinaigre donc démarrez sur un feu moyen mais rapidement, 
+                                    baissez le feu pour finir la réduction tout doux.
+                                </li>  
+                                <li>Quand il n’y a plus du tout de vinaigre, déglacez avec le Noilly-Prat, laissez réduire de moitié.</li>
+                                <li>Ajoutez le bouillon de volaille ou le fumet de poisson, laissez réduire de moitié.</li>
+                                <li>Ajoutez la crème liquide, l’agar-agar et un peu de sel et poivre, laissez réduire de moitié.</li>
+                                <li>Mixez la sauce avec le beurre dans un blinder ou à l’aide d'un bras-mix pour lisser la sauce.</li>
+                                <li>Rectifiez l’assaisonnement.</li>
+                                <li>Mettez la sauce dans un siphon avec 2 cartouches de gaz.</li>
+                            </p>
+                        </div>
+                    </div>    
+                </div>
+                <div class="popup" id="popup5">
+                    <div class="popup-inner">
+                        <div class="popup-photo">
+                            <p>image aliments</p>
+                        </div>
+                        <div class="popup-close">
+                            <a href="#body"><i class="fas fa-times fa-2x"></i></a>
+                        </div>
+                        <div class="popup-text">
+                            <h1>APPELLE DE NOURITUTRE</h1>
+                            <p>Ingredients ed preparation pour faire cette aliment</p>
+                        </div>
+                    </div>    
+                </div>
+                <div class="popup" id="popup6">
+                    <div class="popup-inner">
+                        <div class="popup-photo">
+                            <p>image aliments</p>
+                        </div>
+                        <div class="popup-close">
+                            <a href="#body"><i class="fas fa-times fa-2x"></i></a>
+                        </div>
+                        <div class="popup-text">
+                            <h1>FRUITS DE MER AU CURRY</h1>
+                            <h3>Ingredients:</h3>
+                            <p>
+                                <li>1 sachet de fruit de mer variés surgelés</li> 
+                                <li>3 c. à soupe de curry</li>
+                                <li>1 c. à soupe de moutarde</li>
+                                <li>30 cl de crème fraîche épaisse</li>
+                                <li>2 gros oignons</li>
+                                <li>de la coriandre</li>
+                                <li>sel, poivre</li>
+                            </p>
+                            <h3>Préparation pour faire :</h3>
+                            <p>
+                                <li>Coupez les fleurs de chacune des courgettes. 
+                                    Nettoyez délicatement les fleurs et disposez-les sur du papier absorbant pour bien les sécher.</li>
+                                <li>Séparez le blanc du jaune d'œuf. 
+                                    Dans un saladier, versez la farine. 
+                                    Ajoutez le jaune d'œuf. 
+                                    Délayez progressivement avec l'huile et avec le lait. 
+                                    Fouettez énergiquement jusqu'à obtention d'une pâte homogène.</li>
+                                <li>Montez le blanc d'œuf en neige ferme avec un batteur électrique. 
+                                    Incorporez délicatement le blanc à la préparation précédente.</li>
+                                <li>Faites chauffer de l'huile dans votre friteuse ou dans une grande poêle. 
+                                    Saisissez les fleurs par la base et trempez-les délicatement dans la pâte à beignets. 
+                                    Plongez délicatement les fleurs dans l'huile chaude. 
+                                    Surveillez attentivement la cuisson car les beignets colorent très vite. 
+                                    Égouttez et déposez sur du papier absorbant. Dégustez tiède.</li>  
+                            </p>
+                        </div>
+                    </div>    
+                </div>
+                <div class="popup" id="popup7">
+                    <div class="popup-inner">
+                        <div class="popup-photo">
+                            <p>image aliments</p>
+                        </div>
+                        <div class="popup-close">
+                            <a href="#body"><i class="fas fa-times fa-2x"></i></a>
+                        </div>
+                        <div class="popup-text">
+                            <h1>APPELLE DE NOURITUTRE</h1>
+                            <p>Ingredients ed preparation pour faire cette aliment</p>
+                        </div>
+                    </div>    
+                </div>
+                <div class="popup" id="popup8">
+                    <div class="popup-inner">
+                        <div class="popup-photo">
+                            <p>image aliments</p>
+                        </div>
+                        <div class="popup-close">
+                            <a href="#body"><i class="fas fa-times fa-2x"></i></a>
+                        </div>
+                        <div class="popup-text">
+                            <h1>APPELLE DE NOURITUTRE</h1>
+                            <p>Ingredients ed preparation pour faire cette aliment</p>
+                        </div>
+                    </div>    
+                </div>
+                <div class="popup" id="popup9">
+                    <div class="popup-inner">
+                        <div class="popup-photo">
+                            <p>image aliments</p>
+                        </div>
+                        <div class="popup-close">
+                            <a href="#body"><i class="fas fa-times fa-2x"></i></a>
+                        </div>
+                        <div class="popup-text">
+                            <h1>APPELLE DE NOURITUTRE</h1>
+                            <p>Ingredients ed preparation pour faire cette aliment</p>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <!-- <div class="col-lg-2 right-sidebar">
+                <h2>Account</h2>
+            </div> -->
+        </div>
+    </div>  
+    
+    <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/style.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+          effect: 'coverflow',
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: 'auto',
+          coverflowEffect: {
+            rotate: 30,
+            stretch: 0,
+            depth: 200,
+            modifier: 1,
+            slideShadows : true,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        });
+    </script>
+</body>
+</html>

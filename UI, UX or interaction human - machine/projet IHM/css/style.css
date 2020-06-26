@@ -1,0 +1,330 @@
+
+.container-fluid{
+    margin: 0px; 
+    padding: 0px;
+}
+.header{
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+    height: 200px;
+    background-color: 	#8b9dc3;
+    
+}
+
+#Account .Login .button-Inscrire{
+    font-size: 25px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 15px;
+    line-height: 23px;
+    color: #000000;
+    background-color: #FF9A00;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Cookie', cursive;
+}
+#Account .Login .modal-body{
+    display: flex;
+    padding: 0;
+    font-family: tahoma;
+}
+#Account .Login .modal-content{
+    width: 140%;
+}
+#Account .Login .modal-content h1,#Account .Login .modal-content h2{
+    text-align: center;
+}
+#Account .Login .modal-content h1{
+    /* font-size: 30px; */
+    font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
+}
+#Account .Login .modal-content h2{
+    /* font-size: 1.1em; */
+    
+}
+#Account .Login form{
+    /* font-size: 0.8em; */
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+#Account .Login .column{
+    flex: 50%;
+    /* padding: 10px; */
+}
+#Account .Login .column#main{
+    flex: 75%;
+    padding: 50px;
+    margin-top: 30px;
+    margin-left: 15px;
+
+}
+#Account .Login #secondary{
+    background-color: blueviolet;
+    text-align: center;
+}
+#Account .Login #main .form-control{
+    border: 0;
+    /* font-size: 0.9em; */
+}
+#Account .Login .btn{
+    text-transform: uppercase;
+    border-radius: .15em;
+    width: 200px;
+    padding: .150rem .75rem;
+    margin: 30px auto;
+    font-family: tahoma;
+    letter-spacing: 2px;
+}
+#Account .Login .btn-primary{
+    padding: 20px 30px;
+    outline: none;
+}
+#Account .Login #main .btn-primary{
+    width: 100%;
+}
+#Account .Login #secondary .btn-primary{
+    background: white;
+    color: #000;
+    border: none;
+    
+}
+#Account .Login .modal-body label{
+    margin-bottom: 0;
+}
+#Account .Login .sec-content{
+    margin-top: 85%;
+
+}
+#Account .Login .modal{
+    margin-left: -195px;
+    margin-top: 80px;
+}
+#Account .Login .one{
+    /* margin-top: 140px !important; */
+}
+body{
+    margin: 0px; 
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 150px;
+    padding: 0px;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.header .toggle-btn{
+    position: absolute;
+    left: 50px;
+    top: 40px;
+    border: none;
+    background: none;
+    margin: 0px;
+    padding: 0px;
+}
+.header #toggle-btn-close {
+    display: none;
+}
+.header .toggle-btn span{
+    display: block;
+    width: 50px;
+    height: 7px;
+    background: #000;
+    margin: 5px 0px;
+}
+.left-sidebar, .right-sidebar{
+    margin: 0px;
+    padding: 0px;
+    height: 800px;
+    background-color: 	#f7f7f7;
+}
+.left-sidebar{
+    position: fixed;
+    width: 350px;
+    height: 100%;
+    left: -400px;
+}
+.left-sidebar .active{
+    left: 0px;   
+}
+#menu{
+    padding: 0px;
+    margin: 0px;
+}
+ul#menu li{
+    list-style-type: none;
+    font-size: 25px;
+    padding: 5px;
+    margin-left: 13px;
+    margin-top: 0px;
+}
+
+li h2{
+    font-size: 40px;
+    font-weight: bold;
+    background-color: 	#dfe3ee;
+    padding: 0px 0px 0px 10px;
+    margin: 0px;
+    font-family: 'Cookie', cursive;
+}
+
+.card{
+    position: relative;
+    background: #fff;
+    width: 400px;
+    min-height: 500px;
+    margin: 0 auto;
+}
+.card .contenue{
+    width: 400px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.card .contenue a{
+    background: #fff;
+    display: inline-block;
+    margin: 10px 0 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid #262626;
+    color: #262626;
+    font-weight: 600;
+}
+.card .sliderText{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+.card .sliderText h3{
+    color: #fff;
+    font-size: 3em;
+}
+.swiper-slide{
+    width: 400px;
+}
+.swiper-slide:nth-child(1) .sliderText{
+    background: #2196f3;
+}
+.swiper-slide:nth-child(2) .sliderText{
+    background: #2196f3;
+}
+.swiper-slide:nth-child(3) .sliderText{
+    background: #2196f3;
+}
+.swiper-slide:nth-child(4) .sliderText{
+    background: #2196f3;
+}
+.swiper-slide:nth-child(5) .sliderText{
+    background: #2196f3;
+}
+.swiper-slide:nth-child(6) .sliderText{
+    background: #2196f3;
+}
+.swiper-slide:nth-child(7) .sliderText{
+    background: #2196f3;
+}
+.swiper-slide:nth-child(8) .sliderText{
+    background: #2196f3;
+}
+.swiper-slide:nth-child(9) .sliderText{
+    background: #2196f3;
+}
+.popup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    min-height: 100vh;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.80);
+    z-index: 2;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.74s ease-in-out;
+}
+.popup-inner{
+    position: relative;
+    bottom: -100vw;
+    right: -100vh;
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    min-height: 600px;
+    width: 80%;
+    height: 80%;
+    background-color: white; 
+    transform: rotate(32deg);
+    transition: 0.74s ease-in-out;
+}
+.popup-photo{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    width: 40%;
+    height: 100%;
+    /* overflow: hidden; */
+}
+#popup4 .popup-inner .photo4{
+    width: 40%;
+    height: 100%;
+}
+.popup-photo img{
+    width: auto;
+    height: 100%;
+}
+.popup-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 59%;
+    height: 100%;
+    /* padding: 4rem; */
+    padding: 2px;
+}
+.popup-text h1{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    color: #0a0a0a;
+}
+.popup-text p{
+    font-size: 0.875rem;
+    color: #000;
+    line-height: 1.5;
+}
+.popup:target{
+    visibility: visible;
+    opacity: 1;
+}
+.popup:target .popup-inner{
+    bottom: 0;
+    right: 0;
+    transform: rotate(0);
+}
+.popup-close{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: 0.875rem;
+    font-size: 400;
+    border-radius: 100%;
+    z-index: 4;
+    color: white;
+    line-height: 3rem;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
