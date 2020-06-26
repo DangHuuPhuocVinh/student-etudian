@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    background-color: #cc3366; 
+    width: 990px;
+    min-height: 330px;
+    margin: auto;
+}
+
+#header{
+    background-color: #66aa99;
+    height: 100px;
+}
+
+#left-sidebar, #right-sidebar{
+    background-color: #cc88cc;
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin: 5px 0px;
+}
+
+#content{
+    background-color: #66cc33;
+    width: 580px;
+    height: 400px;
+    float: left;
+    margin: 5px;
+}
+
+#footer{
+    background-color: #000;
+    color: #fff;
+    height: 45px;
+    clear: both;
+    text-align: center;
+    line-height: 45px;
+}
+
+.menu{
+    list-style: none; //bỏ dấu chấm
+    padiing: 0px;
+    margin: 0px;
+}
+
+.menu>li{
+    background-color: #cc6633;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10px;
+    color:#fff;
+}
+
+.menu>li:hover{
+background-color: #33cc99;
+}
+
+.submenu{
+    background-color: #ff0000;
+    width: 200px; 
+    list-style:none;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    visibility: hidden;
+}
+
+.submenu li{
+    background-color: #cc3366;
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    margin-left: 
+}
+
+.menu.li:hover{
+    
+}
