@@ -1,0 +1,23 @@
+h1{
+    color: yellow;
+    
+}
+#header{
+    height: 120px;
+    padding: 10px;
+    padding-left: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: black;
+}
+div  p{
+    font-weight: bolder;
+}
+
+body{
+    background-image: url(hoctap2.jpg);
+    background-size: cover;
+    color: #7cfc00;
+    font-size: 30px;
+    border-radius: 1em;
+}
