@@ -1,0 +1,7 @@
+public enum TypeEtat {
+	ENREGISTRE,
+	RECEPTIONNE,
+	ACCEPTE,
+	REFUSE,
+	ENVOYE
+}
