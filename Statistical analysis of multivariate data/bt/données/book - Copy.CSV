@@ -1,0 +1,12 @@
+num_of_book,genre,age,place,sex,month,duration,time,total,salary
+10,fiction,22,HCM,,8,3,"""Night""",2000000,6000000
+3,novel,15,"""Dong_Nai""","""Female""",7,1.5,"""Night""",200000,0
+20,history,35,"""Ha_Noi""","""Male""",5,2,"""Day""",8000000,15600000
+5,science,20,"""HCM""","""Male""",3,1,"""Day""",500000,2000000
+3,novel,13,"""Binh_Duong""","""Female""",3,0.5,"""Day""",180000,0
+7,medicine,24,"""HCM""","""Female""",6,0.5,"""Night""",250000,2500000
+4,cooking,28,"""HCM""","""Female""",4,1.8,"""Night""",380000,5500000
+6,novel,25,"""HCM""","""Male""",6,2,"""Day""",600000,8000000
+5,all,40,"""Ha_Noi""","""Male""",8,2.5,"""Day""",10000000,35000000
+6,comic,10,"""HCM""","""Male""",11,0.3,"""Day""",100000,0
+8,biography,42,"""Hai_Phong""","""Male""",3,1,"""Night""",1500000,10000000
