@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Author: Mai Trọng Nhân [MSSV] 1752039
+
 
 import sys
 
